@@ -1,0 +1,287 @@
+#TabContainer1 { width: 690px;}
+.phoneresults   {background-color: #fff; width: 100%; margin-bottom:5px;}
+.advpanel       {background-color: #e7e9ea; width: 560px; padding:0px 5px 5px 5px; margin-bottom:10px; border: 1px solid #cfd2d5;}
+#wrapper #content #main table td { padding-left:5px;}
+#shortresults {margin-bottom:5px; }
+.slider1,.slider2,.slider3{
+ display:block;
+ font-weight:bold;
+ background-color: #8ca5bb;
+ padding: 5px;
+ border-top: #888f97 solid 1px;
+ border-left:#888f97 solid 1px
+}
+.slider2{
+background-color: #b2c3d1;
+border-top: #b7bcc0;
+}
+.lnkbutton{
+display:block;
+clear:both;
+
+}
+.slider3
+{
+background-color: #d9e1e8;
+border: #cfd2df;
+}
+
+#main
+/*#main a:link
+{
+    padding-left:10px;
+}*/
+.tabpanel1
+{ 
+	background:none;
+/*    background-color:#d9e1e8;*/
+/*    background-image:url("./images/bg-fade-right.jpg");*/
+
+}
+
+#wrapper #content #main a:link.padding, #wrapper #content #main a:link.padding2 {   
+/*    padding:3px 10px 5px 10px;   
+    text-decoration:none;
+    line-height:15px;
+	background:#e7e9ea;
+	border:1px solid #b6bcbf;
+	border-bottom:none;
+	font-size:.80em;
+	margin:0;
+	color:#5e6a71;*/
+	padding:3px 20px 5px 0px; 
+	color: #5e6a71;
+	text-decoration: none;
+	font-size:.90em;
+}
+
+#wrapper #content #main a:hover.padding, #wrapper #content #main a:hover.padding2 {
+	color:#981e32;
+}
+
+
+#wrapper #content #main a:link.selected {
+/*	padding-left:5px;
+	padding-right:5px;
+	background-color:white;
+	padding-bottom:6px;
+	border-top:gray 1px solid;
+	border-left:gray 1px solid;
+	border-Right:gray 1px solid;
+	background-color:white;
+	padding:4px 10px;
+	padding-bottom:4px;
+	font-weight:bold;
+	color: #5e6a71;
+	text-decoration: none;
+	border-left: solid 1px #5e6a71;
+	border-top: solid 3px #ec7a08;
+	border-right: solid 1px #5e6a71;
+	border-bottom:solid 2px #ffffff;
+	font-size:.80em;
+	margin:0;*/
+	margin-right:20px;
+	padding:3px 0px 4px 0px; 
+	font-weight:bold;
+	color: #5e6a71;
+	text-decoration: none;
+	font-size:.90em;
+	border-bottom:solid 3px #981e32;
+
+}
+
+
+
+.space {
+    margin:0px 0 0 0;
+   padding: 5px 4px 4px 0px;
+ /*   text-align:center;
+	border-bottom:1px solid #5e6a71;*/
+/*     background-repeat:repeat-y;
+    background-position:right;*/
+}
+
+.h1 { background-color:#ccd5c0; }
+.h2 { background-color:#f1e6da; }
+.h3 { background-color:#d9e1e8; }
+.h4 { background-color:#e6eae0; }
+.h5 { background-color:#b3c0a1; }
+#SearchBox1_Panel1 {
+
+}
+.searchbox
+{
+    padding:15px;    
+    vertical-align: left;
+    background-repeat:repeat-y;
+    background-color:#d9e1e8;
+	background-color:#ffffff;
+    background-position:left;
+	margin:0;
+    
+}
+
+.ajax__tab_outer .ajax__tab_inner
+    {
+    border-top: solid 3px #b6bcbf;
+	padding: 5px 30px 5px;  
+    text-decoration:none;
+    line-height:15px;
+	background:#e7e9ea;
+	border-right:1px solid #b6bcbf;
+	border-left:1px solid #b6bcbf;
+	border-bottom:1px solid #5e6a71;
+	font-size:1.0em;
+	margin:0px;
+	color:#5e6a71;
+    }
+input#btnWeb, input#btnFacultyStaff, input#btnStudents
+    {
+    border-top: solid 3px #b6bcbf;
+	padding: 5px 30px 5px;  
+    text-decoration:none;
+    line-height:15px;
+	background:#e7e9ea;
+	border-right:1px solid #b6bcbf;
+	border-left:1px solid #b6bcbf;
+	border-bottom:none;
+	font-size:1.0em;
+	margin:0px;
+	color:#5e6a71;
+    }
+.ajax__tab_outer .ajax__tab_inner:hover 
+    {
+    background:#e7e9ea;
+    border-top: solid 3px #981e32;
+	color:#5e6a71;
+    }
+.ajax__tab_active .ajax__tab_outer .ajax__tab_inner 
+    {
+        background:#FFFFFF none repeat scroll 0 0;
+		border-left: solid 1px #5e6a71;
+		border-right: solid 1px #5e6a71;
+		border-bottom:solid 1px #FFFFFF;
+        border-top: solid 3px #981e32;
+		padding: 5px 30px 5px;
+		font-weight: bold;
+	
+    } 
+.ajax__tab_header
+    {
+        margin:0px;
+		
+        padding:0px 0 0 0px;
+		border-bottom:1px solid #5e6a71;
+		height:28px;
+
+    }
+#TabContainer1_header {
+/*	border-bottom:1px solid #5e6a71;*/
+	/*height:28px;*/
+}
+.tablespace, a.advanced {
+	font-size:.85em;
+	color:#5e6a71;
+	padding:5px 0 0 15px;
+}
+
+
+    /* A container element that wraps all of the tabs at the top of the TabContainer. Child CSS classes:.ajax__tab_outer. */
+     .ajax__tab_header
+     {
+		/*border-bottom:1px solid #5E6A71;*/
+    } 
+     
+     
+    /*An outer element of a tab, often used to set the left-side background image of the tab.Child CSS classes: .ajax__tab_inner. */
+    .ajax__tab_outer 
+    {
+    }
+    
+    /* An inner element of a tab, often used to set the right-side image of the tab. Child CSS classes:.ajax__tab_tab. */
+    .ajax__tab_active .ajax__tab_outer .ajax__tab_inner 
+    {
+    } 
+    
+    /* An element of the tab that contains the text content. Child CSS classes:none. */
+    .ajax__tab_tab 
+    {
+    } 
+    
+    
+    /* A container element that wraps the area where a TabPanel is displayed. Child CSS classes: none. */
+    .ajax__tab_body {
+		border:1px solid #5e6a71;
+		border-top:none;
+		padding:20px 20px 0;
+		margin-top:-1px;
+    } 
+    
+#pnlGoogle, #pnlFacStaff, #pnlStudents{
+	border:1px solid #b6bcbf;
+	/*border-top:none;*/
+	margin-top:-1px;
+}
+#pnlFacStaff, #pnlStudents{
+	padding:15px;
+}
+#NonJSCampuses1_btnAllCampus, #NonJSCampuses1_btnPullman, #NonJSCampuses1_btnSpokane, #NonJSCampuses1_btnTriCities, #NonJSCampuses1_btnVancouver{
+	border:none;
+	background:none;
+}
+    /*  This is applied to a tab when the mouse is hovering over. Child CSS classes:.ajax__tab_outer. */
+    .ajax__tab_hover {
+    }
+    
+    /* This is applied to a tab when it is the currently selected tab. Child CSS classes:.ajax__tab_outer. */
+    .ajax__tab_active 
+    {
+    }
+   
+#nohighlight span
+{
+	background-color: White !important;
+}
+
+/* JLB 03-07-13 add*/
+
+.ajax__tab_active .ajax__tab_outer .ajax__tab_inner,.ajax__tab_outer .ajax__tab_inner {
+  padding: 0;
+}
+.ajax__tab_default .ajax__tab_tab {
+    padding: 5px 30px;
+}
+
+/* Subsite Search Additions */
+
+.scope {
+	margin-left: 5px;
+	}
+.scope a {
+	display: inline-block;
+	color: #5e6a71;
+	text-decoration: none;
+	border-bottom: 3px #981e32 solid;
+	padding-bottom: 2px;
+	}
+.scope a:hover {
+	color: #981e32;
+	}
+xx.scope::before {
+	content: "current: ";
+	font-weight: bold;
+	}
+#TabContainer1_header a {
+	text-decoration: none;
+	display: block;
+	}
+.subsite-search .campuses a {
+	display: none;
+	}
+
+
+/* search overrides */
+.gsc-control-cse{
+	border:none !important;
+}
+
