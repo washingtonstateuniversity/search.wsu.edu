@@ -261,6 +261,9 @@ html body #wrapper #___gcse_0 .gsc-control-cse .gsc-cursor-box::before {
   padding-right: 10px;
    color: #a5a5a5;
 }
+html body #wrapper .gs-snippet b {
+  background-color: #fbffc7;
+}
 /*--search bar--*/
 .header-search-input-wrapper,
 .header-search-a-z-wrapper {
