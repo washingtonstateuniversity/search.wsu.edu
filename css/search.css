@@ -16,12 +16,28 @@ html body .header-search-wrapper {
   position: relative;
   margin-bottom: 20px;
 }
+html body .header-search-wrapper .row.side-right .column.one {
+    width: 65%;
+}
+.header-search-input-wrapper input[type=text] {
+    font-size: 1.5rem;
+    font-weight: 300;
+  font-family: "proxima-nova", sans-serif;
+    width: 100%;
+}
+html body #wrapper .menu-quick-links-search-container li a {
+  color: #5e6a71;
+}
+html body #wrapper .menu-quick-links-search-container li a:hover {
+  color: #fff;
+}
 html body #wrapper {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 html body h1 {
+  padding-top: 3em;
   margin-bottom: 1.4em;
 }
 html body #wrapper #main {
@@ -177,8 +193,10 @@ html body #wrapper #___gcse_0 .gsc-control-cse .gsc-result .gs-title * {
   height: 100%;
 }
 
-html body #wrapper #___gcse_0 .gsc-control-cse .gsc-webResult .gs-title {
-
+html body #wrapper #___gcse_0 .gsc-control-cse .gsc-webResult div.gs-title {
+  padding-left: 180px;
+  text-align: left;
+  line-height: 1.2;
 }
 html body #wrapper #___gcse_0 .gsc-control-cse .gsc-webResult a.gs-title:hover,
 html body #wrapper #___gcse_0 .gsc-control-cse .gsc-webResult .gs-result:hover,
