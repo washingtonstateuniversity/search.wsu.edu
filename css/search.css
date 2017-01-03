@@ -58,28 +58,15 @@ html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header {
   text-decoration: none;
   font-size: 20px;
 }
-html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header .ajax__tab_active {
+.ajax__tab_active {
   color: #2a3033;
+   background-color: #f2f2f2;
 }
-html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header .ajax__tab_active .ajax__tab_outer {
-  background-color: #f2f2f2;
-}
-html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header .ajax__tab_active .ajax__tab_outer .ajax__tab_inner {
-  background-color: #f2f2f2;
-  padding: 1em;
-}
+
 html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header #__tab_TabContainer1_TabPanel1 {
-  padding-left: 14px;
-  padding-right: 14px;
   margin-right: 0;
   border-left: solid 1px #f2f2f2;
   border-right: solid 1px #f2f2f2;
-}
-html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header #__tab_TabContainer1_TabPanel2,
-html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header #__tab_TabContainer1_TabPanel1,
-html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header #__tab_TabContainer1_TabPanel3 {
-  padding: 14px 14px 20px 14px;
-  text-align: center;
 }
 html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header #__tab_TabContainer1_TabPanel2:hover,
 html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header #__tab_TabContainer1_TabPanel1:hover,
@@ -261,7 +248,8 @@ html body #wrapper #___gcse_0 .gsc-control-cse .gsc-cursor-box::before {
   padding-right: 10px;
    color: #a5a5a5;
 }
-html body #wrapper .gs-snippet b {
+html body #wrapper .gs-snippet b,
+html body #wrapper span.h1 {
   background-color: #fbffc7;
 }
 /*--search bar--*/
