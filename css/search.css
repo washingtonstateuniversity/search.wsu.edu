@@ -58,15 +58,19 @@ html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header {
   text-decoration: none;
   font-size: 20px;
 }
+html body #wrapper .ajax__tab_default .ajax__tab_tab {
+  margin: 0;
+  display: inline-block;
+  line-height: 0;
+}
+.ajax__tab_tab {
+  padding: 1em .7em .7em .7em;
+}
 .ajax__tab_active {
   color: #2a3033;
-   background-color: #f2f2f2;
 }
-
-html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header #__tab_TabContainer1_TabPanel1 {
-  margin-right: 0;
-  border-left: solid 1px #f2f2f2;
-  border-right: solid 1px #f2f2f2;
+.ajax__tab_active .ajax__tab_tab {
+  background-color: #f2f2f2;
 }
 html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header #__tab_TabContainer1_TabPanel2:hover,
 html body #wrapper #TabContainer1 #TabContainer1_header.ajax__tab_header #__tab_TabContainer1_TabPanel1:hover,
@@ -97,12 +101,14 @@ html body #wrapper .phoneresults {
   padding: 20px 0 20px 0;
   font-family: "proxima-nova", sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
   padding-bottom: 12px;
 }
 html body #wrapper .phoneresults .name {
   font-size: 26px;
+  padding-top: .5em;
+  padding-bottom: .3em;
 }
 html body #wrapper .phoneresults .name .h2 {
   background-color: #BEF4AA;
@@ -129,6 +135,10 @@ html body #wrapper #___gcse_0 .gsc-control-cse .gsc-above-wrapper-area .gsc-resu
   display: block;
   margin-top: -65px;
   margin-bottom: 100px;
+}
+html body #wrapper table td {
+  padding-top: .1em;
+  padding-bottom: 0;
 }
 html body #wrapper #___gcse_0 .gsc-control-cse .gsc-webResult, html body #wrapper #___gcse_0 .gsc-control-cse .gsc-result {
   border-width: 0px 0px 1px 0px;
